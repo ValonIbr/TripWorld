@@ -1,0 +1,303 @@
+.navParis {
+    background-image: linear-gradient(#b282b2, #fe839f);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  
+  }
+  .logoParis img {
+    height: 4rem;
+    width: 4rem;
+  
+  
+  }
+  .logoParis{
+    display: flex;
+    align-items: center;
+    
+  }
+  .logoParis h3{
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  .logoParis span{
+    font-size: 3rem;
+  }
+  
+  .tMenu h2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  
+  }
+  .tMenu span {
+    font-size: 3rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  
+  }
+  
+  .search-formParis {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+  
+  
+  }
+  
+  .search-inputParis {
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-right: 5px;
+    color: white;
+  }
+  
+  .search-inputParis::placeholder {
+    color: white;
+  }
+  
+  .search-buttonParis {
+    padding: 8px 12px;
+    background-image: linear-gradient(#b282b2, #ac3c56);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .homeTextParis h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);;
+  }
+  .imgParis img{
+    height: 20rem;
+  }
+.textParis h1{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.textParis span{
+   
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.p1{
+    margin-bottom: 2rem;
+}
+.p2{
+    margin-bottom: 2rem;
+}
+.p3{
+    background-image: linear-gradient(#b282b2, #fe839f);
+    
+}
+.buttParis h3{
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+  margin-left: 5rem;
+}
+.buttParis a button{
+  padding: 8px 12px;
+  background-image: linear-gradient(#b282b2, #ac3c56);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  margin-left: 8rem;
+ 
+}
+.mapParis iframe{
+  height: 15rem;
+  width: 100%;
+  border: none;
+}
+
+/* responsive */
+@media screen and (max-width: 768px){
+  .navParis {
+    background-image: linear-gradient(#b282b2, #fe839f);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  
+  }
+  .logoParis img {
+    height: 2rem;
+    width: 2rem;
+  
+  
+  }
+  .logoParis{
+    display: flex;
+    align-items: center;
+    
+  }
+  .logoParis h3{
+    font-size: 1rem;
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  .logoParis span{
+    font-size: 1.5rem;
+  }
+  
+  .tMenu h2 {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  
+  }
+  .tMenu span {
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  
+  }
+  
+  .search-formParis {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+  
+  
+  }
+  
+  .search-inputParis {
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-right: 5px;
+    color: white;
+  }
+  
+  .search-inputParis::placeholder {
+    color: white;
+  }
+  
+  .search-buttonParis {
+    padding: 6px 8px;
+    background-image: linear-gradient(#b282b2, #ac3c56);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  .homeTextParis h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);;
+  }
+
+}
+@media screen and (max-width: 480px){
+  .navParis {
+    background-image: linear-gradient(#b282b2, #fe839f);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  
+  }
+  .logoParis img {
+    height: 1rem;
+    width: 1rem;
+  
+  
+  }
+  .logoParis{
+    display: flex;
+    align-items: center;
+    
+  }
+  .logoParis h3{
+    font-size: .5rem;
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  .logoParis span{
+    font-size: 1rem;
+  }
+  
+  .tMenu h2 {
+    font-size: .5rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  
+  }
+  .tMenu span {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  
+  }
+  
+  .search-formParis {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+  
+  
+  }
+  
+  .search-inputParis {
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    border-radius: 3px;
+    font-size: 7px;
+    margin-right: 5px;
+    color: white;
+  }
+  
+  .search-inputParis::placeholder {
+    color: white;
+  }
+  
+  .search-buttonParis {
+    padding: 4px 6px;
+    background-image: linear-gradient(#b282b2, #ac3c56);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 7px;
+    cursor: pointer;
+  }
+  .homeTextParis h2{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);;
+  }
+
+}
